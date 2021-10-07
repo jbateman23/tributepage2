@@ -5,7 +5,7 @@ html, body, main, section, header, div, article, aside, figure, figcaption, imag
   padding: 0;
 
 }
-  
+
 
 :root {
   --dark: #000;
@@ -15,10 +15,14 @@ html, body, main, section, header, div, article, aside, figure, figcaption, imag
   --reg: all .3s ease-in-out;
   --font: 'Times New Roman', sans-serif;
   font-size: 62.5%;
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 body {
-  color: #000;
+  color: #FFF;
   font-size: 2rem;
   width: 98vw;
   margin: auto;
@@ -28,21 +32,23 @@ body {
   padding: 2rem 0;
 
 }
-.main-nav, h1, h2, h3, h4, h5, h6, .btn, blockquote {
+.main-nav, h1, .btn, blockquote {
 font-family: 'Times New Roman', cursive;
 letter-spacing: 1px;
+
 }
 .main-nav {
-  background: var(--dark);
+  background: #ad3b2d;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 .brand {
   display: flex;
   align-items: center;
-  color: var(--white);
+  color: #000;
 }
 .brand img {
   height: 60px;
