@@ -107,11 +107,11 @@ h3 {
 }
 .btn {
   cursor: pointer;
-  color: var(--gray);
+  color: #fff;
   background-color: var(--accent);
   border: none;
   border-radius: 10rem;
-  padding: 1.3rem 4rem .5rem 4rem;
+  padding: 1rem 3.5rem .25rem 1rem;
   transition: var(--reg);
 }
 .btn:hover {
