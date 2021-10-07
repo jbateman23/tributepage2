@@ -3,7 +3,10 @@
 html, body, main, section, header, div, article, aside, figure, figcaption, image, iframe, h1, h2, h3, h4, h5, h6, p, table, blockquote {
   margin: 0;
   padding: 0;
+
 }
+  
+
 :root {
   --dark: #000;
   --white: #e9e9e9;
@@ -23,7 +26,7 @@ body {
   font-weight: 500;
   font-family: var(--font);
   padding: 2rem 0;
-  text-color: #000;
+
 }
 .main-nav, h1, h2, h3, h4, h5, h6, .btn, blockquote {
 font-family: 'Times New Roman', cursive;
@@ -85,6 +88,7 @@ main img {
 }
 header {
   margin: 3rem auto;
+
 }
 .row {
   display: grid;
@@ -96,12 +100,13 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  width: 300px;
-  height: 500px;
+  width: 275px;
+  height: 475px;
 }
 h3 {
   color: var(--accent);
   align-self: flex-start;
+  text-decoration: underline;
 
 }
 .btn {
