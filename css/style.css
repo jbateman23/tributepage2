@@ -35,7 +35,7 @@ letter-spacing: 1px;
 
 }
 .main-nav {
-  background: #e09251;
+  background: #bf5a1d;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -96,13 +96,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  width: 275px;
-  height: 475px;
+  width: 225px;
+  height: 425px;
 }
 h3 {
   color: fff;
   align-self: flex-start;
-  text-decoration: underline;
   color: #e6922c;
 
 }
