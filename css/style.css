@@ -27,6 +27,8 @@ body {
   font-weight: 500;
   font-family: var(--font);
   padding: 2rem 0;
+  background: #f7e6db;
+  padding: 20px;
 
 }
 .main-nav, h1, .btn, blockquote {
@@ -106,7 +108,7 @@ h3 {
 
 }
 .btn {
-  cursor: pointer;
+  cursor: p;
   color: #fff;
   background-color: var(--accent);
   border: none;
@@ -116,6 +118,12 @@ h3 {
 }
 .btn:hover {
   background-color: var(--dk-acc);
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+
 }
 /*-- Footer Styles --*/
 footer {
