@@ -13,15 +13,15 @@ html, body, main, section, header, div, article, aside, figure, figcaption, imag
   --accent: #000;
   --dk-acc: #934c17;
   --reg: all .3s ease-in-out;
-  --font: 'Times New Roman', sans-serif;
+  --font: 'Perpetua', sans-serif;
   font-size: 62.5%;
-  background: #f0f0f0;
+  background: #f7e6db;
 
 }
 body {
   color: #373737;
-  font-size: 2rem;
-  width: 98vw;
+  font-size: 17px;
+  width: auto;
   margin: auto;
   line-height: 1.3;
   font-weight: 500;
@@ -32,14 +32,16 @@ body {
 
 }
 .main-nav, h1, .btn, blockquote {
-font-family: 'Times New Roman', cursive;
+font-family: 'Perpetua';
 letter-spacing: 1px;
+
 
 }
 .main-nav {
   background: #bf5a1d;
   padding: 2rem;
   display: flex;
+  margin-bottom: 20px;
   flex-direction: column;
   align-items: center;
 
@@ -86,11 +88,12 @@ main img {
 header {
   margin: 3rem auto;
 
+
 }
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1em;
+  grid-gap: 0.5em;
   color: #373737;
 
 }
@@ -103,7 +106,7 @@ header {
 }
 h3 {
   color: fff;
-  align-self: flex-start;
+  align-content: center;
   color: #e6922c;
 
 }
@@ -120,9 +123,16 @@ h3 {
   background-color: var(--dk-acc);
 }
 
-ul {
-  background: #3399ff;
-  padding: 20px;
+
+ol {
+  background: #bf5a1d;
+  padding: 200px;
+  width: 300px;
+
+  padding: 50px;
+  margin: 20px;
+  color: white;
+  align-content: center;
 
 }
 /*-- Footer Styles --*/
