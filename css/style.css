@@ -86,7 +86,7 @@ main img {
 
 }
 header {
-  margin: 3rem auto;
+  margin: 2rem auto;
 
 
 }
@@ -103,6 +103,19 @@ header {
   justify-content: left;
   width: 225px;
   height: 425px;
+
+}
+.lastimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 150px;
+  height: 200px;
+  padding: 0px;
+}
+
+
+
 }
 h3 {
   color: fff;
@@ -126,15 +139,21 @@ h3 {
 
 ol {
   background: #bf5a1d;
-  padding: 200px;
   width: 300px;
-
   padding: 50px;
   margin: 20px;
   color: white;
   align-content: center;
 
 }
+
+ol li {
+    font-weight:bold;
+}
+li > p {
+    font-weight:normal;
+}
+
 /*-- Footer Styles --*/
 footer {
   background: var(--dark);
