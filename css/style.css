@@ -88,7 +88,6 @@ main img {
 header {
   margin: 2rem auto;
 
-
 }
 .row {
   display: grid;
@@ -112,9 +111,6 @@ header {
   width: 150px;
   height: 200px;
   padding: 0px;
-}
-
-
 
 }
 h3 {
@@ -124,13 +120,14 @@ h3 {
 
 }
 .btn {
-  cursor: p;
+  cursor: pointer;
   color: #fff;
   background-color: var(--accent);
   border: none;
   border-radius: 10rem;
   padding: 1rem 2rem 1rem 2rem;
   transition: var(--reg);
+  margin-top: 1rem;
 }
 .btn:hover {
   background-color: var(--dk-acc);
