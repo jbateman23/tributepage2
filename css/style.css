@@ -157,7 +157,13 @@ ol li {
 li > p {
     font-weight:normal;
 }
-
+.img img, .lastimg img {
+  transition: all .3s;
+  cursor: pointer;
+}
+.img img:hover, .lastimg img:hover {
+  transform: scale(1.05);
+}
 /*-- Footer Styles --*/
 footer {
   background: var(--dark);
