@@ -16,7 +16,6 @@ html, body, main, section, header, div, article, aside, figure, figcaption, imag
   --font: 'Perpetua', sans-serif;
   font-size: 62.5%;
   background: #f7e6db;
-
 }
 body {
   color: #373737;
@@ -24,11 +23,11 @@ body {
   width: auto;
   margin: auto;
   line-height: 1.3;
-  font-weight: 500;
+  font-weight: 400px;
   font-family: var(--font);
   padding: 4rem 0;
   background: #f7e6db;
-  padding: 50px;
+  padding: 40px;
 
 }
 .main-nav, h1, .btn, blockquote {
@@ -42,7 +41,7 @@ letter-spacing: 1px;
   padding: 2rem;
   display: flex;
   margin-bottom: 20px;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 
 }
@@ -50,13 +49,13 @@ letter-spacing: 1px;
   display: flex;
   align-items: center;
   color: #fff;
-}
-.brand img {
-  height: 60px;
+  padding-right: 2em;
+
 }
 .brand h1 {
-  padding-top: 1.2rem;
-  padding-left: 1.2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 2em;
 
 }
 .nav-links {
@@ -143,17 +142,18 @@ h3 {
 
 ol {
   background: #bf5a1d;
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
+  width: 275px;
+  padding: 41px;
+  margin: auto;
   color: white;
   align-content: center;
   margin-top: 0px;
-
 }
+
 
 ol li {
     font-weight:bold;
+    justify-content: center;
 }
 li > p {
     font-weight:normal;
